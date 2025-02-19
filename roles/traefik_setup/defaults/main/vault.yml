@@ -1,5 +1,5 @@
-traefik_domain: traefik.milmil.com
-traefik_web_auth_user: milad
-traefik_web_auth_pass: Sayan@123
+traefik_domain: 
+traefik_web_auth_user: 
+traefik_web_auth_pass:
 project_dir: /opt
 service_dir: "{{ project_dir }}/traefik"
