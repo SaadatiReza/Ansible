@@ -1,0 +1,7 @@
+- name: install and configuration docker
+  hosts: debians
+  become: true
+  gather_facts: true
+  roles:
+    - docker_setup
+    - host_preparing

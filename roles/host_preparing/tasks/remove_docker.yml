@@ -1,0 +1,4 @@
+- name: remove docker
+  ansible.builtin.apt:
+    name: docker
+    state: absent

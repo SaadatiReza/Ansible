@@ -1,0 +1,6 @@
+minio_root_user: milad
+minio_root_pass: SAYAN@12345
+minio_console_domain: console.milmil.com
+minio_api_domain: minio.milmil.com
+#restart_policy: always
+minio_image_tag: latest

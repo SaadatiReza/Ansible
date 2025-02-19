@@ -1,0 +1,12 @@
+---
+- name: host preparing
+  import_tasks: preparing.yml
+  tags:
+    - host_preparing
+    - host
+
+- name: remove docker
+  import_tasks: remove_docker.yml
+  tags:
+    - remove_docker
+    - docker
