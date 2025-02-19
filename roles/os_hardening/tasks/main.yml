@@ -1,0 +1,5 @@
+- name: auditd
+  import_tasks: auditd.yml
+  tags:
+    - auditd
+    - hardening
