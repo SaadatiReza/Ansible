@@ -1,0 +1,6 @@
+- name: install and configuration traefik service
+  hosts: debians
+  become: true
+  gather_facts: true
+  roles:
+    - os_hardening

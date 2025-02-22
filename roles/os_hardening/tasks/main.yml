@@ -3,3 +3,14 @@
   tags:
     - auditd
     - hardening
+
+- name: apt cleaning
+  import_tasks: apt.yml
+  tags:
+    - apt
+    - hardening
+- name: cron permission
+  import_tasks: cron.yml
+  tags:
+    - cron
+    - hardening
